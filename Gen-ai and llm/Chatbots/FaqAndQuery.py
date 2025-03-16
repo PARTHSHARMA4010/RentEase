@@ -17,7 +17,7 @@ model = HuggingFaceHub(
 )
 
 
-chathistory = [SystemMessage(content="You are a chatbot developed for handling rental agreement recommendations and contract customization")]
+chathistory = [SystemMessage(content="You are a chatbot developed for handling frequently asked questions related to rental agreements ")]
 
 while True:
     user_input = input("You: ")
