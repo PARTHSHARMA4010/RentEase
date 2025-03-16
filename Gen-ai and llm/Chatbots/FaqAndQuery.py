@@ -5,7 +5,7 @@ from langchain_core.messages import SystemMessage, HumanMessage, AIMessage
 from dotenv import load_dotenv
 
 load_dotenv()
-os.environ["HUGGINGFACEHUB_API_TOKEN"] = "your_hf_api_key"
+
 
 
 model_name = "mistralai/Mistral-7B-Instruct-v0.1"
